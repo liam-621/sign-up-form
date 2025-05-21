@@ -11,13 +11,22 @@ html, body {
 }
 
 .section-1 {
-    background-color: black;
-    padding: 1rem;
     flex: 0 0 30%;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.logo-background {
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    opacity: 0.5;
+    position: absolute;
+    top: 14rem;
 }
 
 .section-2 {
-    background-color: pink;
-    padding: 1rem;
     flex: 0 0 70%;
 }
+
