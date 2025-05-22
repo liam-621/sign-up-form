@@ -24,41 +24,41 @@
             </div>
             <div class="middle-content">
                 <h1 class="form-heading">Let's do this!</h1>
-                <form class="sign-up-form">
+                <form id="sign-up-form" class="sign-up-form">
                     <div class="form-row">
                         <div class="form-field">
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="first-name">
+                            <input type="text" id="first-name" name="first-name" required>
                         </div>
                         <div class="form-field">
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" id="last-name" name="last-name">
+                            <input type="text" id="last-name" name="last-name" required>
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-field">
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-field">
                             <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" required>
                         </div>
                     </div>
-                    <div class="form-row">
+                    <div class="form-row password">
                         <div class="form-field">
                             <label for="pwd">PASSWORD</label>
-                            <input type="password" id="pwd" name="pwd">
+                            <input type="password" id="pwd" name="pwd" required>
                         </div>
-                        <div class ="form-field">
+                        <div class="form-field">
                             <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-pwd" name="confirm-pwd">
+                            <input type="password" id="confirm-pwd" name="confirm-pwd" required>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="bottom-content">
-                <button class="account-button">Create Account</button>
+                <button class="account-button" form="sign-up-form">Create Account</button>
                 <p>Already have an account? <a href="/login">Log in</a></p>
             </div>
         </div>
