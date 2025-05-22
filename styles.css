@@ -116,11 +116,17 @@ html, body {
     box-sizing: border-box;
 }
 
+.form-field input:focus {
+    outline: 1px solid #4287f5;
+    box-shadow: 1px 1px 10px #b5b5b5;
+}
+
 .form-field label {
     color: #363636;
     font-size: 0.8em;
     font-weight: bold;
     letter-spacing: 1px;
+    margin-bottom: 2px;
 }
 
 .bottom-content {
@@ -144,8 +150,6 @@ html, body {
     font-weight: bold;
     cursor: pointer;
     text-align: center;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     box-shadow: 1px 1px 10px #a6a6a6;
     margin-bottom: 1rem;
 }
